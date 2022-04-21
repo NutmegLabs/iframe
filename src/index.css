@@ -1,0 +1,43 @@
+.editorjs-iframe {}
+
+.editorjs-iframe .cdx-loader {
+  min-height: 200px;
+}
+
+.editorjs-iframe .cdx-input {
+  margin-top: 10px;
+}
+
+.editorjs-iframe iframe {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.editorjs-iframe__caption[contentEditable=true][data-placeholder]:empty::before {
+  position: absolute;
+  content: attr(data-placeholder);
+  color: #707684;
+  font-weight: normal;
+  opacity: 0;
+ }
+
+.editorjs-iframe__caption[contentEditable=true][data-placeholder]:empty::before {
+  opacity: 1;
+}
+
+.editorjs-iframe__caption[contentEditable=true][data-placeholder]:empty:focus::before {
+  opacity: 0;
+}
+
+.iframe-flex{
+  display: flex;
+}
+.iframe-justify-start {
+  justify-content: flex-start;
+}
+.iframe-justify-end {
+  justify-content: flex-end;
+}
+.iframe-justify-center {
+  justify-content: center;
+}
