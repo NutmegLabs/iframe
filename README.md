@@ -15,13 +15,13 @@ Works only with pasted iframe tags and requires no server-side setup.
 Get the package
 
 ```shell
-npm i --save-dev @hammaadhrasheedh/editorjs-iframe
+yarn add NutmegLabs/iframe.git
 ```
 
 Include module at your application
 
 ```javascript
-const Iframe = require('@hammaadhrasheedh/editorjs-iframe');
+const Iframe = require('@editorjs/iframe');
 ```
 
 ### Download to your project's source dir
