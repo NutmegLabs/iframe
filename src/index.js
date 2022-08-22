@@ -123,6 +123,7 @@ export default class Iframe {
     this.nodes.holder = holder;
     this.nodes.wrapper = wrapper;
     this.nodes.iframe = iframe;
+
     if(this.data.alignment){
       console.log(this.data.alignment)
       this._acceptTuneView();
@@ -210,6 +211,9 @@ export default class Iframe {
 
     if (this.nodes.iframe) {
       this.nodes.iframe.parentElement.innerHTML = this.data.frame
+    }
+    if(this.data.alignment && this.nodes.holder){
+      this._acceptTuneView();
     }
   }
 
