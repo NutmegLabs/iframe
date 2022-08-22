@@ -1,6 +1,6 @@
 {
   "name": "@editorjs/iframe",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Iframe Tool for Editor.js",
   "main": "./dist/bundle.js",
   "license": "MIT",
