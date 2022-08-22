@@ -182,9 +182,10 @@ export default class Iframe {
         }
         this.data = {
           frame: iframe,
+          alignment: 'Centered'
         }
 
-        this._data = Object.assign({}, this.data, {frame:iframe});
+        this._data = Object.assign({}, this.data, {frame:iframe,alignment: 'Centered'});
         break;
       }
     }
